@@ -4,6 +4,8 @@
 
 ## 環境構築
 
+- Vagrantは```ver 1.5```以上が必要
+
 ```bash
 # VMの起動～プロビジョニング (※時間がかかります)
 [local] $ vagrant up
