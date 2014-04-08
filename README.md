@@ -19,7 +19,7 @@
 ```
 
 ```bash
-# Demo.Sandboxアプリを起動 (PHP buid-in Server が起動します)
+# Demo.Sandboxアプリを起動 (PHP built-in Server が起動します)
 [vagrant] $ /vagrant/bear/bin/bear.server /vagrant/bear/apps/Demo.Sandbox
 ```
 
