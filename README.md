@@ -1,26 +1,27 @@
 # BEAR.Sunday の Demo.Sandbox アプリを Vagrant 上で動かすサンプル
+# An example of running the BEAR.Sunday Demo.Sandbox app on Vagrant
 
 - [BEAR.Sunday](http://bearsunday.github.io/)
 
-## 環境構築
+## Environment
 
-- Vagrantは```ver 1.5```以上が必要
+- Vagrant ```ver 1.5``` and above is required.
 
 ```bash
-# VMの起動～プロビジョニング (※時間がかかります)
+# VM boot and provisioning (may take some time).
 [local] $ vagrant up
 ```
 
-## 動作確認
+## Check all is running
 
 ```bash
-# VMにSSHログイン
+# SSH into your VM
 [local] $ vagrant ssh
 ```
 
 ```bash
-# Demo.Sandboxアプリを起動 (PHP built-in Server が起動します)
+# Start the Demo.Sandbox app (running the PHP built-in Web-Server)
 [vagrant] $ /vagrant/bear/bin/bear.server /vagrant/bear/apps/Demo.Sandbox
 ```
 
-ブラウザで ```http://192.168.33.10:8080``` にアクセス
+Access ```http://192.168.33.10:8080``` in your browser,
