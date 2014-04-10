@@ -1,4 +1,3 @@
-# BEAR.Sunday の Demo.Sandbox アプリを Vagrant 上で動かすサンプル
 # An example of running the BEAR.Sunday Demo.Sandbox app on Vagrant
 
 - [BEAR.Sunday](http://bearsunday.github.io/)
