@@ -11,7 +11,7 @@
 [local] $ vagrant up
 ```
 
-## Check all is running
+## Run the Application
 
 ```bash
 # SSH into your VM
