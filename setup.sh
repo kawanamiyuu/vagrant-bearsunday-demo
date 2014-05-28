@@ -18,7 +18,7 @@ curl -sS https://getcomposer.org/installer | php -- --install-dir=/vagrant
 # create BEAR.Sunday project
 rm -rf /vagrant/bear
 mkdir /vagrant/bear
-php /vagrant/composer.phar create-project bear/package /vagrant/bear --dev
+php /vagrant/composer.phar create-project bear/package /vagrant/bear dev-develop
 
 service iptables stop
 chkconfig iptables off
